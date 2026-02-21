@@ -10,21 +10,28 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx(styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">
-          Open Source Fleet Resources
+        <h1 className="hero__title" style={{color: '#ffffff', textShadow: '2px 2px 4px rgba(0,0,0,0.5)'}}>
+          {siteConfig.title}
         </h1>
-        <p className="hero__subtitle">
-          Discover the best open-source software, hardware protocols, and telematics trends.
+        <p className="hero__subtitle" style={{color: '#f3f4f6', fontSize: '1.5rem', textShadow: '1px 1px 2px rgba(0,0,0,0.5)'}}>
+          {siteConfig.tagline}
         </p>
-        <div className={styles.buttons}>
+        {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/software-list">
-            Browse Software List ⏱️
+            to="/docs/software-hub"
+            style={{fontWeight: 'bold'}}>
+            Explore Software Hub 🚛
           </Link>
-        </div>
+          <Link
+            className="button button--outline button--lg margin-left--md"
+            to="/docs/hardware-hub"
+            style={{color: '#ffffff', borderColor: '#ffffff', fontWeight: 'bold'}}>
+            Browse Hardware 📡
+          </Link>
+        </div> */}
       </div>
     </header>
   );
@@ -34,8 +41,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - Open Source Fleet Management Resources`}
+      description="The global resource hub for open source fleet technologies. Discover software, hardware, protocols, and industry insights.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

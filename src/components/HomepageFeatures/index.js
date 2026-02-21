@@ -4,45 +4,51 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Software Hub',
+    Svg: require('@site/static/img/icon-software.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Discover open-source fleet management platforms, GPS tracking solutions, 
+        route optimizers, and maintenance tools. Compare features and find the 
+        perfect fit for your fleet.
       </>
     ),
+    link: '/docs/software-hub',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Hardware Hub',
+    Svg: require('@site/static/img/icon-hardware.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Browse GPS trackers, OBD-II devices, gateways, and sensors. 
+        Find compatible hardware for your fleet management system with 
+        detailed specifications and reviews.
       </>
     ),
+    link: '/docs/hardware-hub',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Protocol Hub',
+    Svg: require('@site/static/img/icon-protocol.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Technical documentation for GPS protocols including GT06, TK103, 
+        Teltonika, and more. Essential reference for developers building 
+        fleet management integrations.
       </>
     ),
+    link: '/docs/protocol-hub',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <h3><a href={link}>{title}</a></h3>
         <p>{description}</p>
       </div>
     </div>

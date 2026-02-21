@@ -38,8 +38,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false, // 禁用 blog 功能
         theme: {
@@ -57,15 +57,36 @@ const config = {
         title: 'OpenSourceFleet',
         logo: {
           alt: 'OpenSourceFleet Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
-          // 把默认的 "Tutorial" 改成 "Software List"
+          // Software Hub
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'softwareHubSidebar',
             position: 'left',
-            label: 'Software List', // 核心栏目：软件清单
+            label: 'Software Hub',
+          },
+          // Hardware Hub
+          {
+            type: 'docSidebar',
+            sidebarId: 'hardwareHubSidebar',
+            position: 'left',
+            label: 'Hardware Hub',
+          },
+          // Protocol Hub
+          {
+            type: 'docSidebar',
+            sidebarId: 'protocolHubSidebar',
+            position: 'left',
+            label: 'Protocol Hub',
+          },
+          // Insights
+          {
+            type: 'docSidebar',
+            sidebarId: 'insightsSidebar',
+            position: 'left',
+            label: 'Insights',
           },
 
           // 🔗 关键一步：在导航栏放 OpenFMS 的外链

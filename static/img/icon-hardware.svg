@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Hardware Hub Icon - GPS Device/Satellite -->
+  <rect x="30" y="40" width="140" height="120" rx="10" fill="#10b981" opacity="0.1"/>
+  
+  <!-- GPS Device Body -->
+  <rect x="70" y="80" width="60" height="70" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="3"/>
+  <rect x="75" y="90" width="50" height="35" rx="4" fill="#d1fae5"/>
+  
+  <!-- Screen Content - Location Pin -->
+  <circle cx="95" cy="108" r="10" fill="#10b981" opacity="0.3"/>
+  <path d="M95 98 C90 98 86 102 86 107 C86 113 95 122 95 122 C95 122 104 113 104 107 C104 102 100 98 95 98 Z" fill="#10b981"/>
+  <circle cx="95" cy="106" r="3" fill="#ffffff"/>
+  
+  <!-- Device Details -->
+  <circle cx="85" cy="135" r="3" fill="#10b981"/>
+  <circle cx="100" cy="135" r="3" fill="#10b981"/>
+  <circle cx="115" cy="135" r="3" fill="#10b981"/>
+  
+  <!-- Satellite Signals -->
+  <path d="M140 60 Q150 50 160 60" stroke="#34d399" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M135 70 Q150 55 165 70" stroke="#34d399" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M130 80 Q150 60 170 80" stroke="#34d399" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Satellite -->
+  <rect x="145" y="45" width="20" height="12" rx="2" fill="#059669"/>
+  <rect x="135" y="48" width="8" height="6" rx="1" fill="#34d399"/>
+  <rect x="167" y="48" width="8" height="6" rx="1" fill="#34d399"/>
+</svg>

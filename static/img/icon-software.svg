@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Software Hub Icon - Code/Applications -->
+  <rect x="30" y="40" width="140" height="120" rx="10" fill="#3b82f6" opacity="0.1"/>
+  <rect x="40" y="50" width="120" height="90" rx="6" fill="#ffffff" stroke="#3b82f6" stroke-width="3"/>
+  
+  <!-- Window Header -->
+  <rect x="40" y="50" width="120" height="20" rx="6" fill="#3b82f6"/>
+  <circle cx="52" cy="60" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="65" cy="60" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="78" cy="60" r="4" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Code Lines -->
+  <rect x="55" y="85" width="60" height="6" rx="3" fill="#60a5fa"/>
+  <rect x="55" y="98" width="80" height="6" rx="3" fill="#93c5fd"/>
+  <rect x="55" y="111" width="50" height="6" rx="3" fill="#60a5fa"/>
+  <rect x="55" y="124" width="70" height="6" rx="3" fill="#93c5fd"/>
+  
+  <!-- Truck Icon -->
+  <path d="M145 130 L165 130 L170 120 L170 105 L155 105 L155 95 L135 95 L135 120 Z" fill="#3b82f6"/>
+  <circle cx="145" cy="132" r="5" fill="#1e40af"/>
+  <circle cx="162" cy="132" r="5" fill="#1e40af"/>
+</svg>
