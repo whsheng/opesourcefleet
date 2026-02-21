@@ -119,6 +119,23 @@ const config = {
       //   isCloseable: true,
       // },
 
+      // 🔍 SEO 元数据
+      metadata: [
+        {name: 'keywords', content: 'fleet management, GPS tracking, open source fleet software, telematics, vehicle tracking, fleet optimization, Traccar, OpenFMS'},
+        {name: 'description', content: 'OpenSourceFleet is the global resource hub for open source fleet management technologies. Discover software, hardware, protocols, and industry insights.'},
+        {name: 'author', content: 'OpenSourceFleet'},
+        {property: 'og:title', content: 'OpenSourceFleet - Open Source Fleet Management Resources'},
+        {property: 'og:description', content: 'The global resource hub for open source fleet technologies. Discover software, hardware, protocols, and industry insights.'},
+        {property: 'og:type', content: 'website'},
+        {property: 'og:url', content: 'https://opensourcefleet.com'},
+        {property: 'og:image', content: 'https://opensourcefleet.com/img/hero-fleet.svg'},
+        {property: 'og:site_name', content: 'OpenSourceFleet'},
+        {name: 'twitter:card', content: 'summary_large_image'},
+        {name: 'twitter:title', content: 'OpenSourceFleet - Open Source Fleet Management Resources'},
+        {name: 'twitter:description', content: 'The global resource hub for open source fleet technologies. Discover software, hardware, protocols, and industry insights.'},
+        {name: 'twitter:image', content: 'https://opensourcefleet.com/img/hero-fleet.svg'},
+      ],
+
     }),
 };
 
