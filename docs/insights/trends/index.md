@@ -10,7 +10,7 @@ Welcome to the Trends & Analysis section of OpenSourceFleet. Here you'll find co
 
 ## Featured Reports
 
-### [Global Commercial Fleet Market Analysis 2025](./2025-global-commercial-fleet-market-analysis)
+### [Global Commercial Fleet Market Analysis 2025](./global-commercial-fleet-market-analysis)
 
 A comprehensive examination of the 2025 global commercial fleet market, covering:
 - Market size and regional dynamics (USD 888.51B commercial vehicles market)

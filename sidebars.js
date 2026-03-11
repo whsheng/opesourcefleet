@@ -145,8 +145,8 @@ const sidebars = {
             id: 'insights/trends/index',
           },
           items: [
-            'insights/trends/2025-global-commercial-fleet-market-analysis',
-            'insights/trends/2024-fleet-tech-landscape',
+            'insights/trends/global-commercial-fleet-market-analysis',
+            'insights/trends/fleet-tech-landscape',
           ],
         },
         {
