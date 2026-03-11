@@ -140,7 +140,12 @@ const sidebars = {
         {
           type: 'category',
           label: 'Trends & Analysis',
+          link: {
+            type: 'doc',
+            id: 'insights/trends/index',
+          },
           items: [
+            'insights/trends/2025-global-commercial-fleet-market-analysis',
             'insights/trends/fleet-tech-landscape',
           ],
         },
